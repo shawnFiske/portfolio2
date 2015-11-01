@@ -1,0 +1,12 @@
+<section>
+  <artical data-ng-repeat="project in projects" class="formatProjects">
+    <div>
+      <a href="{{project.projectUrl}}" target="_blank">
+        <img src="{{project.imageUrl}}" alt="{{project.projectName}}">
+      </a>
+    </div>
+    <span class="projectTitle">
+          {{project.projectName}}
+    </span>
+  </article>
+</section>
