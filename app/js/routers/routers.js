@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = function(app) {
-  app.config(['$routeProvider',
-    function($routeProvider) {
+  app.config(['$locationProvider','$routeProvider',
+    function($locationProvider, $routeProvider) {
       $routeProvider.
         when('/apps', {
           templateUrl: './templates/projects_list.html',
@@ -15,5 +15,8 @@ module.exports = function(app) {
         otherwise({
           redirectTo: '/apps'
         });
+
+      $locationProvider.html5Mode(true);
+
   }]);
 };

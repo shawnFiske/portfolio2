@@ -1,7 +1,7 @@
 'use strict';
 
 require('angular/angular');
-require('angular-animate');
+//require('angular-animate');
 require('angular-route');
 
 var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
