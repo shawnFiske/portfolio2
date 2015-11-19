@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = function(app) {
-  app.directive('projectsList', function() {
+  app.directive('descriptionArea', function() {
     return {
       restrict: 'CA',
       replace: true,
-      templateUrl: './../../../templates/projects_list.html',
+      templateUrl: './../../../templates/description.html'
     }
   });
 };
