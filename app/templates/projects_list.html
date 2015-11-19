@@ -1,5 +1,5 @@
 <section>
-  <artical data-ng-repeat="project in projects" class="formatProjects">
+  <artical data-ng-repeat="project in projects" class="formatProjects" ng-mouseenter="hover(project)" ng-mouseleave="hover(project)">
     <div>
       <a href="{{project.projectUrl}}" target="_blank">
         <img src="{{project.imageUrl}}" alt="{{project.projectName}}">
@@ -8,5 +8,6 @@
     <span class="projectTitle">
           {{project.projectName}}
     </span>
+    <div data-description-area ng-show="project.showInfo" class="projectInfo"></div>
   </article>
 </section>
