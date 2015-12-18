@@ -23,7 +23,7 @@ footer {
 }
 
 section {
-  
+
 }
 
 aside {
@@ -109,12 +109,11 @@ a:visited {
 }
 
 .projectInfo {
-  position: fixed;
+  position: relative;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 12;
   z-index:999;
   width: 150;
-  height: 150;
-  background-color: #FFFFFF;
+  background-color: #e6e6e6;
   border-radius: 5px;
 }

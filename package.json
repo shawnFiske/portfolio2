@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickuhn/kitchen_sink.git"
+    "url": "git+https://github.com/shawnFiske/portfolio2.git"
   },
   "keywords": [
     "portfolio",
@@ -19,7 +19,7 @@
   "author": "Shawn Fiske",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickuhn/kitchen_sink/issues"
+    "url": "https://github.com/shawnFiske/portfolio2/issues"
   },
   "homepage": "http://www.shawnfiske.com",
   "dependencies": {},
