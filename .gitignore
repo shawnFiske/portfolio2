@@ -1,2 +1,5 @@
 node_modules
-build
+bundle.js
+build/index.html
+build/styles.css
+build/templates
