@@ -1,46 +1,47 @@
 <html>
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Shawn Fiske Portfolio</title>
-  <base href="/">
-</head>
-<body data-ng-app="portfolioApp">
-  <main>
-    <aside>
-      <nav>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Shawn Fiske Portfolio</title>
+    <base href="/">
+  </head>
 
-        <span id="firstName">SHAWN</span>
-        <span id="lastName">FISKE</span>
-        <div id="box"></div>
+  <body data-ng-app="portfolioApp">
+    <main>
+      <aside>
+        <nav>
 
-        <ul class="nav" id="undecorateLi">
-            <li class="linkfont"><a href="/apps" class="links"> Home </a></li>
-            <li class="linkfont"><a href="/playground" class="links"> Play Ground </a></li>
-        </ul>
+          <span id="firstName">SHAWN</span>
+          <span id="lastName">FISKE</span>
+          <div id="box"></div>
 
-        <div id="box"></div>
+          <ul class="nav" id="undecorateLi">
+              <li class="linkfont"><a href="/apps" class="links"> Home </a></li>
+              <li class="linkfont"><a href="/playground" class="links"> Play Ground </a></li>
+          </ul>
 
-        <div id="github">
-          <a href="https://github.com/shawnFiske" target="_blank">
-            <img src="./images/github-sign.png" alt="Github link">
-          </a>
-        </div>
+          <div id="box"></div>
 
-        <div id="linkin">
-          <a href="https://www.linkedin.com/in/slfiske" target="_blank">
-            <img src="./images/orange-linkedin-32.png" alt="linkedin link">
-          </a>
-        </div>
+          <div id="github">
+            <a href="https://github.com/shawnFiske" target="_blank">
+              <img src="./images/github-sign.png" alt="Github link">
+            </a>
+          </div>
 
-      </nav>
-    </aside>
+          <div id="linkin">
+            <a href="https://www.linkedin.com/in/slfiske" target="_blank">
+              <img src="./images/orange-linkedin-32.png" alt="linkedin link">
+            </a>
+          </div>
 
-    <section id="content">
-        <ng-view></ng-view>
-    </section>
+        </nav>
+      </aside>
 
-  </main>
-  <script src="bundle.js"></script>
-</body>
+      <section id="content">
+          <ng-view></ng-view>
+      </section>
+
+    </main>
+    <script src="bundle.js"></script>
+  </body>
 </html>
